@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_kernel_lge_bullhead",
+    "target_path": "kernel/lge/bullhead",
+	"revision": "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "Hexa-Project-Device/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "revision":    "cm-14.1"
+  }
+]
