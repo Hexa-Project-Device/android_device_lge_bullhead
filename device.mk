@@ -379,6 +379,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.use_cc_names=true
+	
+# OTA Updater
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.ota.romname=Hexa-Project-Bullhead \
+  ro.ota.version=$(shell date -u +%Y%m%d) \
+  ro.ota.manifest=https://raw.githubusercontent.com/Hexa-Project/release_bullhead/cm-14.1/ota.xml
 
 # Update 1x signal strength after 10s
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
